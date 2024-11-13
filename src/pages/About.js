@@ -12,12 +12,12 @@ function About() {
       </Helmet>
 
       <nav className="nav-bar-container make-sticky">
-        <div className="logo-head"><span>JR</span></div>
+        <div className="logo-head"><span>A6</span></div>
         <div className="nav-items">
           <div className="item"><a href='/'>Home</a></div>
           <div className="item"><a href='/about'>About</a></div>
           <div className="item"><a href='/projects'>Projects</a></div>
-          <div className="item"><a href='/vision'>Vision</a></div>
+          <div className="item"><a href='https://euphonious-boba-a8b212.netlify.app/'>Vision</a></div>
           <div className="item"><a href='/contact'>Contact</a></div>
         </div>
       </nav>
@@ -27,12 +27,15 @@ function About() {
       </section>
 
       <section className='about flex-box'>
-      <img src="https://cdn.gadgets360.com/content/assets/entertainment/shah-rukh-khan-poster.jpg"/>
+      <img src="https://i.pinimg.com/236x/d0/6f/d4/d06fd4421ff7f67be807d7d3f8382c56.jpg?nii=t"/>
       <div className='about-right'>
-        <h1>Joraj J R</h1>
-        <h2>Android Developer</h2>
-        <p>I'm dedicated in building intuitive and high-performance mobile applications. With a deep understanding of Android frameworks and 
-          a passion for crafting seamless user experiences. With a deep understanding of Android frameworks and a passion for crafting seamless user experiences.
+        <h1>Arpith S Nair</h1>
+        <h2>Programmer</h2>
+        <p>"Innovative thinker with a strong ability to solve complex problems through creative design solutions."
+        “Programs must be written for people to read, and only incidentally for machines to execute.”
+        “Code is like humor. When you have to explain it, it’s bad.”
+        “We’re moving from a world where computers are used by programmers to one where computers are used by everyone.” 
+        “Computing is not about computers any more. It is about living.” 
         </p>
       </div>
       </section>
@@ -41,7 +44,7 @@ function About() {
         <h1>Educational Qualifications</h1>
 
         {/* -- Education item -- */}
-        <div className='edu-item flex-box'>
+        <div className='edu-item flex-box main-bx'>
           <img src='ku_logo.jpg'></img>
           <div className='about-right'>
           <h1>University of Kerala</h1>
@@ -52,18 +55,18 @@ function About() {
         {/* -- end -- */}
         
         {/* -- Education item -- */}
-        <div className='edu-item flex-box'>
+        <div className='edu-item flex-box main-bx'>
           <img src='ku_logo.jpg'></img>
           <div className='about-right'>
           <h1>University of Kerala</h1>
-          <h2>BSc. Computer Science (2021 - 2024)</h2>
-          <p>I have completed my Under Graduation in Computer Science from University Institute of Technology, Trivandrum</p>
+          <h2>BSc.Physics and Computer Application(2021 - 2024)</h2>
+          <p>I have completed my Under Graduation in Physics and Compuer Application  from Govt College Kariavattom, Trivandrum</p>
           </div>
         </div>
         {/* -- end -- */}
 
         {/* -- Education item -- */}
-        <div className='edu-item flex-box'>
+        <div className='edu-item flex-box main-bx'>
           <img src='https://upload.wikimedia.org/wikipedia/en/9/95/CBSE_new_logo.svg'></img>
           <div className='about-right'>
           <h1>Central Board of Secondary Education</h1>
@@ -79,17 +82,11 @@ function About() {
         <h1>Certifications</h1>
         <div className='certificate-container flex-box'>
 
-        <div className='cert-holder'>
-          <img src='association_for_computing_machinery_logo.jpg'></img>
-          <h4>Association for Computing Machinery</h4>
-          <p>Certified Programmer in Machine Learning with Python</p>
-        </div>
+       
 
-        <div className='cert-holder'>
-          <img src='google_analytics.png'></img>
-          <h4>Google LLC</h4>
-          <p>Certified Programmer in Data Analytics with Google</p>
-        </div>
+      
+          
+          
 
         <div className='cert-holder'>
           <img src='https://www.nasscomfoundation.org/images/nasscom-logo.svg'></img>
@@ -97,62 +94,35 @@ function About() {
           <p>Certified Programmer in Python</p>
         </div>
 
-        <div className='cert-holder'>
-          <img src='steyp.jpg'></img>
-          <h4>Steyp</h4>
-          <p>Certified Programmer in UI/UX Engineering from Steyp from Talrop</p>
-        </div>
-
+       
         </div>
 
       </section>
 
-      <section className='certification'>
-        <h1>Work Shops</h1>
-        <div className='certificate-container flex-box'>
 
-        <div className='cert-holder'>
-          <img src='wt_tech.png'></img>
-          <h4>White Track Technology</h4>
-          <p>Workshop in Java Database Connector</p>
-        </div>
+        
 
-        <div className='cert-holder'>
-          <img src='youwin1.png'></img>
-          <h4>You Win Technologies</h4>
-          <p>Workshop in Mobile Engineering</p>
-        </div>
 
-        <div className='cert-holder'>
-          <img src='career_avenues.jpg'></img>
-          <h4>Career Avenues</h4>
-          <p>Workshop in Logic Building & Interview Prepration</p>
-        </div>
 
-        <div className='cert-holder'>
-          <img src='ms_logo.png'></img>
-          <h4>Microsoft Corporation</h4>
-          <p>Workshop in Devops & Webrtc p2p mechanism</p>
-        </div>
 
-        </div>
+        
 
-      </section>
+      
 
     
 
       <section class="footer">
       <div class="footer-row">
       <div class="footer-col">
-          <h4>JORAJ J R</h4>
+          <h4>ARPITH S NAIR</h4>
           <p>
             A passionate programmer, graduated from Kerala University.
           </p>
           <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
+            
+            
+            
+          
           </div>
         </div>
         <div class="footer-col">
@@ -166,21 +136,19 @@ function About() {
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Projects</h4>
+        <h4>Contact</h4>
           <ul class="links">
-            <li><a href="#">Cloud Box Android App</a></li>
-            <li><a href="#">React Safe Android App</a></li>
-            <li><a href="#">Exa Learn Web App</a></li>
-            <li><a href="#">Code Next Web App</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <ul class="links">
-            <li><a href="#">+91 8086786159</a></li>
-            <li><a href="#">myselfjoraj@proton.me</a></li>
-            <li><a href="#">linkedin.com/in/myselfjoraj</a></li>
-            <li><a href="#">github.com/myselfjoraj</a></li>
+            
+         < li><a href="#">+91 8590182131</a></li>
+          <li><a href="#">arpithmysterio@gmail.com</a></li>
+            
+          
+        
+        
+          
+          
+          
+            
           </ul>
         </div>
         

@@ -6,7 +6,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   color: rgb(51, 51, 51);
-  --main-color: #F75958;
+  --main-color: black;
 }
 a{
   text-decoration: none;
@@ -24,7 +24,7 @@ a{
 .App-header {
  /* background-color: #282c34;*/
   min-height: 100vh;
-  color: white;
+  color: rgb(158, 116, 255);
 }
 
 .App-link {
@@ -47,10 +47,10 @@ a{
   padding-bottom: 10px;
   padding-left: 200px;
   padding-right: 200px;
-  background-color: white;
-  color: black;
+  background-color: rgb(12, 12, 11);
+  color: rgb(250, 245, 245);
   height: 55px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px 0 rgba(248, 245, 245, 0.911);
 }
 
 .make-sticky{
@@ -63,16 +63,17 @@ a{
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 900;
-  font-style: normal;
+  font-style: Display;
 }
 
 .logo-head span{
-  color: var(--main-color);
+  color: white;
 }
 
 .nav-items{
   display: flex;
   align-items: center;
+  color: rgb(22, 20, 20);
 }
 .item{
   font-weight: 400;
@@ -81,8 +82,8 @@ a{
   letter-spacing: .5px;
 }
 
-.item a:hover{
-  color: var(--main-color);
+.item a{
+  color: white;
   cursor: pointer;
   text-decoration: none;
 }
@@ -140,7 +141,7 @@ a{
   justify-content: center;
 }
 .hero img{
-  width: 400px;
+  width: 300px;
   border-radius: 25px;
   margin-left: 150px;
 }
@@ -198,7 +199,7 @@ a{
 }
 
 .about img{
-  width: 400px;
+  width: 350px;
   border-radius: 25px;
   margin-left: 150px;
 }
@@ -218,7 +219,7 @@ a{
   padding: 15px;
   font-weight: 400;
   font-size: 16px;
-  color: white;
+  color: rgb(8, 8, 8);
   border-radius: 35px;
 }
 
@@ -265,19 +266,22 @@ a{
 .progress-bar-border{
   height: 10px;
   width: 80vh;
+  border-radius: 25px;
   border: 1px solid var(--main-color);
 }
 .progress-bar{
   height: 10px;
-  width: 90%;
+  width: 50%;
   background-color: var(--main-color);
+  border-radius: 25px;
 }
 
 
 
 .footer {
   width: 100%;
-  background: #10182F;
+  height: 50%;
+  background: #131112;
 }
 
 .footer .footer-row {
@@ -289,7 +293,7 @@ a{
   padding: 60px;
 }
 .footer-row .footer-col h4 {
-  color: #fff;
+  color: #f5f5f7;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -303,14 +307,14 @@ a{
 }
 .footer-col .links li a {
   text-decoration: none;
-  color: #bfbfbf;
+  color: #f5eded;
 }
 .footer-col .links li a:hover {
-  color: #fff;
+  color: #0f0f0f;
 }
 .footer-col p {
   margin: 20px 0;
-  color: #bfbfbf;
+  color: #eee3e3;
   max-width: 300px;
 }
 .footer-col form {
@@ -323,7 +327,7 @@ a{
   background: none;
   width: 100%;
   outline: none;
-  border: 1px solid #7489C6 ;
+  border: 1px solid #2c613c ;
   caret-color: #fff;
   color: #fff;
   padding-left: 10px;
@@ -343,7 +347,7 @@ a{
   
 }
 .footer-col form button:hover {
-  background: #cecccc;
+  background: #0e0d0d;
 }
 .footer-col .icons {
   display: flex;
@@ -386,11 +390,13 @@ a{
 
 
 /* about us */
-
+.main-bx{
+  border: 15px solid rgb(238, 15, 15);
+}
 .AboutMeHero{
-  height: 300px;
+  height: 100px;
   margin-top: -20px;
-  background-color:  #fa6969;
+  background-color:  #0f0e0e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -410,7 +416,7 @@ a{
 }
 
 .edu-item{
-  margin: 50px;
+  margin: 80px;
 }
 
 .edu-item img{
@@ -423,7 +429,7 @@ a{
 }
 
 .edu-item:nth-child(3){
-  margin-left: 180px;
+  margin-left: 98px;
 }
 
 .certificate-container{
@@ -449,9 +455,9 @@ a{
 /* Contact Us */
 
 .TopHero{
-  height: 300px;
+  height: 100px;
   margin-top: -20px;
-  background-color:  #fa6969;
+  background-color:  #141414;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,7 +537,7 @@ a{
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
-  color: #333;
+  color: #080808;
 }
 
 .map-emb input, textarea {
